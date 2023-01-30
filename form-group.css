@@ -1,0 +1,46 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin-top: 10px;
+    font-family: 'Montserrat' !important;
+}
+
+.form-group label {
+    height: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #4F4F4F;
+}
+
+.form-group input, select{
+    width: 80%;
+    height: 23px;
+    border-radius: 5px;
+    border: 1px solid #828282;
+}
+
+.icone {
+    position:absolute;
+    top:0; left:5px;
+    color: #4F4F4F;
+  }
+  
+  .input-div {
+    position: relative;
+  }
+  
+  input::placeholder, input{
+    text-indent: 3em;
+  }
+
+  .check-form-group label{
+    font-size: 13.5px;
+  }
+
+@media screen and (max-width:768px) {
+  .form-group input, select{
+    width: 100%;
+}
+}
